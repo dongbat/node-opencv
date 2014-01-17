@@ -1529,4 +1529,4 @@ Matrix::FloodFill(const Arguments& args){
 	return scope.Close(Number::New( ret ));
 }
 
-
+inline double round( double d ) { return floor( d + 0.5);}
