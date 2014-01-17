@@ -1,5 +1,7 @@
 #include "OpenCV.h"
 
+inline double round( double d ) { return floor( d + 0.5);}
+
 class Matrix: public node::ObjectWrap {
   public:
 
